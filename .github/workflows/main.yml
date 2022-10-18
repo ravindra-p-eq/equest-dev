@@ -18,5 +18,5 @@ jobs:
       - uses: shopify/shopify-cli-action@v1
         with:
           auth-token: ${{ secrets.DEV_THEME_AUTH_TOKEN }}
-	        command: 'login --store=equest-dev.myshopify.com --password=zN!zapNreDF4eC9'
+	  command: 'login --store=equest-dev.myshopify.com --password=zN!zapNreDF4eC9'
           command: 'theme push --theme ${{ secrets.DEV_THEME_ID }}'
