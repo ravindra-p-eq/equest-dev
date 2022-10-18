@@ -3,7 +3,7 @@ name: My project
 on:
   push:
     branches:
-      - main
+      - dev
   pull_request:
 
 jobs:
